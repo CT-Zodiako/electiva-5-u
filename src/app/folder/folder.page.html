@@ -15,7 +15,13 @@
   </ion-header>
 
   <div id="container">
-    <strong class="capitalize">{{ folder }}</strong>
+    <h2>Autor: {{autor}}</h2>
+    <h3>{{materia}}</h3>
+    <h4>Proyecto: {{proyecto}}</h4>
+    <input type="text" [(ngModel)]="autor" placeholder="Nombre del autor">
+
+    <!-- <strong class="capitalize">{{ folder }}</strong> -->
+
     <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
   </div>
 </ion-content>

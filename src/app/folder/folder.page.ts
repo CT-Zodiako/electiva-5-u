@@ -11,6 +11,10 @@ export class FolderPage implements OnInit {
   private activatedRoute = inject(ActivatedRoute);
   constructor() {}
 
+  autor = "Cristian Tovar"
+  materia = "Electiva 5"
+  proyecto = "Hola mundo"
+
   ngOnInit() {
     this.folder = this.activatedRoute.snapshot.paramMap.get('id') as string;
   }
